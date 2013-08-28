@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Country,Leader,People'
+    timedout=''
+    timedoutpods=''
+    timing='2.2'
+    parsetiming='0.17'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa1921a2aef6iahb49bce00003a25a24ahd45c99g'
+    host='http://www3.wolframalpha.com'
+    server='8'
+    related='http://www3.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa1931a2aef6iahb49bce00004cdb8c6ad9328i71&amp;s=8'
+    version='2.6'>
+ <pod title='Input interpretation'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>India | President</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1941a2aef6iahb49bce00003fhf2e129egbfa7f?MSPStoreType=image/gif&amp;s=8'
+       alt='India | President'
+       title='India | President'
+       width='124'
+       height='23' />
+  </subpod>
+ </pod>
+ <pod title='Result'
+     scanner='Identity'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''
+      primary='true'>
+   <plaintext>Pratibha Patil</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1951a2aef6iahb49bce00005hd6hbd9223003c5?MSPStoreType=image/gif&amp;s=8'
+       alt='Pratibha Patil'
+       title='Pratibha Patil'
+       width='89'
+       height='18' />
+  </subpod>
+ </pod>
+ <pod title='Basic information'
+     scanner='Data'
+     id='BasicInformation:LeaderData'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>official position | President
+country | India
+start date | 25/07/2007 (4 years 11 months 30 days ago)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1961a2aef6iahb49bce00001cic3425ec4h22b3?MSPStoreType=image/gif&amp;s=8'
+       alt='official position | President
+country | India
+start date | 25/07/2007 (4 years 11 months 30 days ago)'
+       title='official position | President
+country | India
+start date | 25/07/2007 (4 years 11 months 30 days ago)'
+       width='400'
+       height='100' />
+  </subpod>
+ </pod>
+ <pod title='Sequence'
+     scanner='Data'
+     id='LeaderSequence:LeaderData'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext>July 2007  to  present | Pratibha Patil
+July 2002  to  July 2007  (5 years) | A. P. J. Kalam
+July 1997  to  July 2002  (5 years) | K.R. Narayanan
+July 1992  to  July 1997  (5 years) | Shankar Dayal Sharma
+July 1987  to  July 1992  (5 years) | Ramaswamy Venkataraman</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1971a2aef6iahb49bce00003i12ga89ii8c3d34?MSPStoreType=image/gif&amp;s=8'
+       alt='July 2007  to  present | Pratibha Patil
+July 2002  to  July 2007  (5 years) | A. P. J. Kalam
+July 1997  to  July 2002  (5 years) | K.R. Narayanan
+July 1992  to  July 1997  (5 years) | Shankar Dayal Sharma
+July 1987  to  July 1992  (5 years) | Ramaswamy Venkataraman'
+       title='July 2007  to  present | Pratibha Patil
+July 2002  to  July 2007  (5 years) | A. P. J. Kalam
+July 1997  to  July 2002  (5 years) | K.R. Narayanan
+July 1992  to  July 1997  (5 years) | Shankar Dayal Sharma
+July 1987  to  July 1992  (5 years) | Ramaswamy Venkataraman'
+       width='443'
+       height='164' />
+  </subpod>
+  <states count='1'>
+   <state name='More'
+       input='LeaderSequence:LeaderData__More' />
+  </states>
+ </pod>
+ <pod title='Personal information'
+     scanner='Data'
+     id='LeaderDataPersonalInformationPod:PeopleData'
+     position='500'
+     error='false'
+     numsubpods='2'>
+  <subpod title=''>
+   <plaintext>full name | Pratibha Patil
+date of birth | 19/12/1934 (age: 77 years)</plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1981a2aef6iahb49bce000031fff00eg93c53a8?MSPStoreType=image/gif&amp;s=8'
+       alt='full name | Pratibha Patil
+date of birth | 19/12/1934 (age: 77 years)'
+       title='full name | Pratibha Patil
+date of birth | 19/12/1934 (age: 77 years)'
+       width='306'
+       height='68' />
+  </subpod>
+  <subpod title='Timeline'>
+   <plaintext></plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP1991a2aef6iahb49bce00002a94408e3bh9dh86?MSPStoreType=image/gif&amp;s=8'
+       alt=''
+       title=''
+       width='500'
+       height='30' />
+  </subpod>
+ </pod>
+ <pod title='Image'
+     scanner='Data'
+     id='Image:PeopleData'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <plaintext></plaintext>
+   <img src='http://www3.wolframalpha.com/Calculate/MSP/MSP2001a2aef6iahb49bce000014b73dha1g9ic2c4?MSPStoreType=image/gif&amp;s=8'
+       alt=''
+       title=''
+       width='87'
+       height='150' />
+  </subpod>
+ </pod>
+ <sources count='3'>
+  <source url='http://www.wolframalpha.com/sources/CountryDataSourceInformationNotes.html'
+      text='Country data' />
+  <source url='http://www.wolframalpha.com/sources/LeaderDataSourceInformationNotes.html'
+      text='Leader data' />
+  <source url='http://www.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html'
+      text='People data' />
+ </sources>
+</queryresult>

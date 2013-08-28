@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/bt_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:minHeight="20dip"
+        android:onClick="goBack"
+        android:text="back"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/bt_rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_launcher"
+        android:minHeight="20dip"
+        android:onClick="startRotate"
+        android:text="rotate"
+        android:textSize="12dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bg_2" />
+
+    <Button
+        android:id="@+id/bt_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_back"
+        android:layout_alignBottom="@+id/bt_back"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:minHeight="20dip"
+        android:onClick="startDone"
+        android:text="done"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/bt_crop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_rotate"
+        android:layout_alignBottom="@+id/bt_rotate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="29dp"
+        android:background="@drawable/ic_launcher"
+        android:minHeight="20dip"
+        android:onClick="startCrop"
+        android:text="crop"
+        android:textSize="12dp" />
+
+</RelativeLayout>
