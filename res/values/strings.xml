@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">Soul Math</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_math">Soul Math Cal-C</string>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="clear">CLR</string>
+    <string name="multiply">X</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="open_sb">(</string>
+    <string name="close_sb">)</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="decimal">.</string>
+    <string name="sqaure">X2</string>
+    <string name="backspace">&lt;=</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="asin">asin</string>
+    <string name="acos">acos</string>
+    <string name="atan">atan</string>
+    <string name="power">^</string>
+    <string name="mod">|X|</string>
+    <string name="fact">!</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="mult10">x10*</string>
+    <string name="pi">π</string>
+    <string name="sqrt">√</string>
+    <string name="abs">|x|</string>
+    <string name="e">e</string>
+
+</resources>

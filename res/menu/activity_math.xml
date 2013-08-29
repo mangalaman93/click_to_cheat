@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+        <item
+        android:id="@+id/degrad"
+        android:orderInCategory="100"
+        
+        android:title="Deg/Rad">
+        <menu>
+            <item android:id="@+id/degree" android:title="Degree" />
+             
+            <item android:id="@+id/radion" android:title="Radion"/>
+        </menu>
+        
+    </item>
+    
+    <item android:id="@+id/help"  android:title="help">
+        
+    </item>
+    
+
+</menu>
